@@ -1,0 +1,12 @@
+{
+  "globals": {
+    "fetch": false,
+    "Request": false,
+    "window": false,
+    "document": false
+  },
+  "experimentalDecorators": false,
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": ["react", "jsx-a11y", "import"]
+}

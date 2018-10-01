@@ -1,0 +1,22 @@
+{
+  "env": "default",
+  "publicPath": "localhost:8080",
+  "host": "localhost",
+  "port": "8080",
+  "jsSourcePath": "src/js",
+  "optimization": {
+    "commonMinCount": 3,
+    "cssExclusion": true
+  },
+  "html": [
+    {
+			"name": "Acme Feed Chart",
+      "title": "Acme Feed Chart",
+      "template": "_default.html",
+      "filename": "index.html"
+    }
+  ],
+  "app": {
+    "description": "AcmeCorp Data Chart."
+  }
+}
